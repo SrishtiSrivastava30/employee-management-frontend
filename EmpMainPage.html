@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
+    
+	<link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+			background: url(https://images.unsplash.com/photo-1489257712451-3a66755ca19c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+			background-size: cover;
+			background-position: center;
+		    }
+
+        html{
+            height: 100%;
+        }
+        nav{
+            background-color: gray;
+        }
+
+
+        .navbar-default{
+			background: grey;
+		}
+		.navbar-default .navbar-brand{
+			font-family: 'Galada', cursive;
+			font-size: x-large;
+			color: white;
+            padding-left: 20px;
+
+		}
+		.navbar-default .navbar-nav>li>a{
+			font-family: 'Galada', cursive;
+			font-size:large;
+			color: white;
+        }
+
+        .logout{
+            margin-top: 10px;
+            
+            margin-bottom: 7px;
+            margin-left: 750px;
+            /* margin-right: 0px; */
+            
+            font-size: 20px;
+            
+            font-family: 'Galada', cursive;
+        }
+        .Notification{
+            margin-top: 10px;
+            /* margin-right: 20px; */
+            margin-bottom: 20px;
+            margin-left: 50px;
+            font-size: 20px;
+            
+            font-family: 'Galada', cursive;
+        }
+        h2{
+            text-align: center;
+            color: white;
+            font-family: 'Galada', cursive;
+            font-size: 40px;
+
+        }
+        tr,td,th{
+            border: 4px solid white;
+            font-size: 15px;
+            color:white;
+            font-weight: 700;
+            padding: 10px;
+            
+        }
+        
+        table{
+            margin-right: auto;
+            margin-left: auto;
+        }
+        
+</style>
+<body>
+
+    <nav class="navbar navbar-default">
+
+        <div class="container">
+
+        <div class="navbar-header">
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+    <span class="sr-only">Toggle navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+
+          <a href="#" class="navbar-brand">  <i class="fa fa-list" aria-hidden="true"></i> </a>
+        </div>
+
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+
+
+            
+            
+            
+            <li><button class="Notification " id="Notification">Notification</button></li>
+            <li><button class="logout btn btn-primary" id="logout">logout</button></li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+
+    <h2>Your Payroll Details</h2>
+    <table><tr>
+        <th>Department Id</th>
+        <th>Employee Id</th>
+        <th>Basic</th>
+        <th>Bonus</th>
+        <th>TA</th>
+        <th>DA</th>
+        <th>HRA</th>
+        <th>Medical</th>
+        <th>Tax</th>
+        <th>Leaves</th>
+        <th>Net Salary</th>
+        
+    </tr></table>
+
+    
+
+
+
+
+
+            <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+</body>
+</html>

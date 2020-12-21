@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>emp login</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<style>
+    *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+			background: url(https://images.unsplash.com/photo-1489257712451-3a66755ca19c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+			background-size: cover;
+			background-position: center;
+		    }
+        html{
+            height: 100%;
+        }
+        .text{
+            margin-top: 90px;
+            margin-left: 500px;
+
+            background-color: rgba(248, 244, 244, 0.425);
+            /* border: 2px solid black; */
+            display: inline-block;
+            padding: 70px;
+            padding-right: 100px;
+            padding-left: 100px; 
+            
+            
+            
+            
+        }
+        .write{
+            font-style: italic;
+        }
+        .icon{
+            font-size: 150px;
+            margin-left: 92px;
+            padding-bottom: 20px;
+        }
+        input{
+            width: 300px;
+        }
+        input[type=text] {
+        
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid black;
+        }
+        input[type=password] {
+        
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid black;
+        }
+        .this{
+            margin-left: 100px;
+            margin-top: 20px;
+        }
+        label{
+            /* font-family: serif; */
+            font-size: 25px;
+            color: #fff;
+            
+        }
+        .login-error{
+            color: red;
+            font-weight: 600;
+            font-size: 1.2em;
+            text-align: center;
+            padding-top: 0.8em;
+        }
+        
+</style>
+<body>
+
+
+    <form>
+        <div class="text"> 
+            <i class="fa fa-id-badge icon " aria-hidden="true" ></i><br>
+            <label for="EmpId">Enter Employee Id:</label><br>
+            <input type="text" id="EmpId" name="username" required><br>
+            <label for="password write">Enter password:</label><br>
+            <input type="password" id="password" name="password" required >
+            <br>
+            <button class="btn btn-dark btn-lg this" id="btn">Sign-in</button>
+            <div class="login-error"></div>
+        </div>
+      </form>
+
+
+      <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      
+
+
+    
+</body>
+</html>
